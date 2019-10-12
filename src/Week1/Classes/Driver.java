@@ -3,11 +3,14 @@ package Week1.Classes;
 public class Driver {
     public static void main(String[] args) {
 
-        Rectangle R = new Rectangle(15,12, "Red");
-        Rectangle G = new Rectangle(10,2, "Green");
-        Rectangle B = new Rectangle(5, 7, "Blue");
+        Rectangle r1 = new Rectangle(15,12, "Red");
+        Rectangle r2 = new Rectangle(10,2, "Green");
+        Rectangle r3 = new Rectangle(5, 7, "Blue");
+        Rectangle r4 = new Rectangle(0, 0, "");
 
-
+        r1.draw();
     }
+
+
 
 }

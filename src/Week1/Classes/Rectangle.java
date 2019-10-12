@@ -36,5 +36,25 @@ public class Rectangle {
         Color = color;
     }
 
+    void draw(){
+        if (Color == ""){
+            Color = "Blue";
+        }
+        if (Width <= 0){
+            Width = 1;
+        }
+        if (Height <= 0){
+            Height = 1;
+        }
 
+        System.out.println( "Color : " + getColor());
+
+
+        for (int i = 0; i <getHeight() ; i++) {
+            for (int j = 0; j < getWidth() ; j++) {
+                System.out.print("#");
+            }
+            System.out.println(" ");
+        }
+    }
 }
